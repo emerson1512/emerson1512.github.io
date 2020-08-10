@@ -4,8 +4,8 @@
 }
 main {
 
-  height: 739px;
-  width: 800px;
+  height: 800px;
+  width: 810px;
   margin: auto;
   margin: top 10px;
 }
@@ -14,21 +14,21 @@ main {
 header {
 
   height: 165px;
-  border-bottom-left-radius: 10px;
+  border-bottom-right-radius:  10px;
   border-radius: 15px;
 }
 
 header img {
     width: 100%;
-    border-bottom-left-radius: 10px;
-    border-radius: 15px;
+    border-top-right-radius:  10px;
+    border-top-left-radius: 10px;
   }
 nav {
   text-align:center;
   height:50px;
+  border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  border-radius: 15px;
-  background-color: #F8CE21;
+  background-color: #DEBA25;
 }
 
 nav ul {
@@ -38,7 +38,6 @@ nav ul {
 
 nav ul li {
   display: inline;
-
   color:black;
   padding: 10px 30px 10px 30px;
   font-size: 18px;
@@ -46,49 +45,69 @@ nav ul li {
 
 aside {
   background-color: #B4B4AF;
-  height: 430px;
-  width: 270px;
-  border-radius: 15px;
-  float: left;
-  color: black;
+ height: 430px;
+  width: 268px;
+  float:left;
   margin: 6px;
-  margin-bottom: 10px;
-  display: inline-block;
+  border-top-right-radius:  15px;
+  border-top-left-radius: 15px;
+ display: inline-block;
 }
 
 aside header {
   text-align: center;
   color: #F1F3F3;
   background-color:black;
-  border-top-left-radius: 15px;
+  border-bottom-right-radius: 0.5px;
+  border-bottom-left-radius: 0.5px;
   border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
   height: 30px;
-
-
+   margin-bottom: 10px;
 }
-aside article {
-
-  border-radius: 15px;
-  background-color:#B4B4AF ;
-  margin-top:  10px;
-
+article img {
+  height: 80px;
+  float: right;
+border-radius: 15px;
 }
-
-section{
+ section{
   margin: 6px;
     height: 430px;
-    width: 500px;
+    width: 515px;
     display: inline-block;
     border-radius: 15px;
-    border: 1px solid red;
+    float: left;
+    display: inline-block;
+    text-align: justify;
 }
+
+
+section h1{
+    text-align: center;
+    background-color: black;
+    color: #F1F3F3;
+font-size: 12px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+  }
+section article{
+    background-color: #EBEBEB;
+    border-radius;
+    width:auto;
+    border-radius: 15px;
+   height: 99px;
+   margin-bottom: 10px;
+  text-align: justify;
+}
+
 footer {
 
   height: 64px;
  clear: both;
  background-color: black;
- border-radius: 20px;
- border: 1px solid red;
+ border-bottom-right-radius: 10px;
+ border-bottom-left-radius: 10px;
+
 }
 footer p {
   text-align: center;

@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  background-color: #1B4A48;
+  height: 40px;
+}
+
+nav div {
+
+padding: 10px;
+  width: 150px;
+  color: #ffffff;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li {
+  margin-right: 10px;
+}
+
+#ma {
+  display: none;
+  color: yellow;
+}
+
+
+@media only screen and (max-width:600px) {
+#logo {
+  color: yellow;
+}
+
+#ma {
+  display: inline;
+  color: yellow;
+ }
+#ml {
+  display: none;
+}
+
+}

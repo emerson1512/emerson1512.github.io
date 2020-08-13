@@ -1,124 +1,87 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> banco</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet"   href="estilosb.css">
+   <head>
+     <html lang="en"
 
-  </head>
-  <main>
-   <header> <img src="banco.jpg" alt="">  </header>
-   <nav>
-   <ul>
-     <li>.Servicios</li>
-     <li>|</li>
-     <li>.Productos</li>
-     <li>|</li>
-     <li>.Guarderia</li>
-     <li>|</li>
-     <li>.Promociones</li>
-   </ul>
-   </nav>
-   <aside>
-     <header>INGRESA  A  TU  CUENTA </header>
-     <form  action= method=>
-       <table>
-     <tr>
-       <td><label for="c"> Cuenta</label> </td>
-       <td><input type="number" name="c" placeholder="Numero de cuenta"> </td>
-     </tr>
-     <tr>
-       <td><label for="t"> Tipo</label> </td>
-       <td><input type="text" name="t" </td>
-     </tr>
-     <tr>
-       <td><label for="c"> Clave </label> </td>
-       <td><input type="password" name="c" value="" placeholder="Ingrese clave"> </td>
-      <tr>
-        <td><label for="button"> </label> </td>
-        <td><input type="button" name="button" style="color"=red; value=" INGRESAR " placeholder style="color"=red; "INGRESAR" ></td>
-      </tr>
-   </tr>
- </form>
-   </table>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="estilosb.css">
+   </head>
+  <body>
+     <main>
+       <header>
+      <div id="titulo">
+      <h1>BANCOOP</h1>
+      <p>Te ayuda a alcanzar tus metas</p>
+      </div>
+      <div id="logo">
+      <img src="../img/logo.jpg">
+      </div>
+    </header>
+     <nav>
+      <ol>
+       <li><a href="">.Créditos.</a></li>
+       <li><a href="">.Leasing.</a></li>
+       <li><a href="">.Ahorros.</a></li>
+       <li><a href="">.Servicio al cliente.</a></li>
+       </ol>
+     </nav>
+      <section class="servicios">
+        <article><header class="titulo" style="border-radius: 0px 15px 0px 0px"><h5>AHORRO ESTUDIANTIL</h5></header>
+          <img src="../img/ahorro.jpg" alt="">
+          <p>.</P>
+        </article>
+        <article><header class="titulo" style="border-radius: 15px 0px 0px 0px"><h5>SOLICITA NUESTROS PRODUCTOS</h5></header>
+          <img src="../img/productos.jpg" alt="">
+          <p></P>
+        </article>
+        <article><header class="titulo" style="border-radius: 0px 15px 0px 0px"><h5>CREDITO HIPOTECARIO</h5></header>
+          <img src="../img/credito.jpg" alt="">
+          <p></P>
+        </article>
+        <article><header class="titulo" style="border-radius: 15px 0px 0px 0px"><h5>CREDITO VEHICULOS</h5></header>
+          <img src="../img/master.jpg" alt="">
+          <p></P>
+        </article>
+      </section>
+      <article class="aparte"><center><header class="titulo" style="border-radius: 15px 15px 0px 0px"><label>INGRESA TU CUENTA</label></header>
+  			<table>
+  				<tr>
+  					<td class="datos"><label>Cuenta:</label></td>
+  					<td class="datos"><input type="text" name=""></td>
+  				</tr>
+  				<tr>
+  					<td class="datos"><label>Tipo:</label></td>
+  					<td class="datos"><input type="text" name=""></td>
+  				</tr>
+  				<tr>
+  					<td class="datos"><label>Clave:</label></td>
+  					<td class="datos"><input type="text" name=""></td>
+  				</tr>
+  			</table><button>Ingresar</button></center>
+  		</article>
+  		<article class="aparte1"><center>
+  			<header class="titulo"; style="color: #C39115">TRANSACCIONES</header>
+  			<table>
+  				<tr>
+  					<td class="textos">Banca personal <hr></td>
+  					<td class="textos">Banca empresarial <hr></td>
+  					<td class="textos">Banca seguros <hr></td>
+  					<td class="textos">Pago de facturas</td>
+  				</tr>
+  			</table>
+  			<header class="titulo"; style="color: #C39115">TARJETAS DE CREDITO</header>
+  			<table>
+  				<tr>
+  					<td class="textos">Credi Visa <hr></td>
+  					<td class="textos">Credi Mastercard</td>
+  				</tr>
+  			</table>
+  		</center>
+    </article>
 
-      <form  action= method=>
-        <table>
-      <tr>
-        <td><label for="b">  </label> </td>
-        <td><input type="button" name="b" value="TRANSACCIONES" placeholder="TRANSACCIONES"> </td>
-      </tr>
-      <tr>
-        <td><label for="b">  </label> </td>
-        <td><input type="button" name="b" value="banca personal " placeholder="banca personal"> </td>
-      </tr>
-      <tr>
-        <td><label for="b">  </label> </td>
-        <td><input type="button" name="b" value="banca empresarial " placeholder="banca empresarial"> </td>
-      </tr>
-      <tr>
-        <td><label for="b">  </label> </td>
-        <td><input type="button" name="b" value="banca seguros " placeholder="banca seguros"> </td>
-      </tr>
-      <tr>
-        <td><label for="b">  </label> </td>
-        <td><input type="button" name="b" value="pago de facturas " placeholder=" pago de facturas"> </td>
-      </tr>
-      <tr>
-        <td><label for="b">  </label> </td>
-        <td><input type="button" name="b" value="TARJETAS DE CREDITO " placeholder="TARJETAS DE CREDITO"> </td>
-      </tr>
-      <tr>
-        <td><label for="b">  </label> </td>
-        <td><input type="button" name="b" value="Credi visa " placeholder="Credi visa"> </td>
-      </tr>
-       <tr>
-         <td><label for="button"> </label> </td>
-         <td> <input type="button" name="button" value=" Credi Mastercard " placeholder="Credi Mastercard" </td>
-       </tr>
-    </tr>
-    </table>
-  </form>
+    <footer><p id="contactos"><center><h4>Contactenos <br>Linea gratuita 018000-00001 <br>Banco entidad finaciera-Todos los derechos reservados.</h4></p></center></footer>
 
-   </aside>
-   <section>
-     <article>
-       <h1>Punto de ventas crediacard</h1>
-       <img src="tarjeta.jpg" alt="30px;">
-       <p>los requisitos para adquirir un punto de venta son el Registro Mercantil,
-          el Registro de Información Fiscal (RIF) de la empresa y fotocopia de la cédula
-           de identidad del representante legal.</p>
-     </article>
-     <article>
-      <h1> Ahorro Estudiantil</h1>
-      <img src="estudiante.jpg" alt="">
-      <p>Es una cuenta de ahorros especial que le permite al padre de familia ahorrar y planificar
-        a mediano o largo plazo los estudios primarios, secundarios y/o universitarios de su hijo.</p>
-     </article>
-     <article>
-      <h1>Credito de vehiculos</h1>
-        <img src="vehiculo.jpg" alt="">
-      <p>financiación y beneficios que se adaptan a tus necesidades.
-         Con la financiera de la marca tienes la posibilidad de incluir en
-        la financiación el Seguro de Auto, Protección Financiera, ChevyStar,
-        Garantía Extendida, accesorios, matrícula y soat.</p>
-     </article>
-    <article>
-      <h1>Credito Hipotecario</h1>
-      <img src="hipoteca.jpg" alt="">
-      <p>Es una alternativa para que cumplas la meta de tener tu casa propia,
-        a través de un préstamo a largo plazo en el que pagas cuotas mensuales
-        y el inmueble queda como garantía.</p>
-      </article>
-     </section>
+    </main>
+  </body>
 
-    <footer>
-      <p>contactenos</p>
-      <p>Linea gratuita 01 8000-00001</p>
-      <p>Banco entidad financiera - todos los derechos reservados.</p>
-    </footer>
-  </main>
-
-  <a  href = " ../index.html " > Inicio </a>
-</body>
 </html>
